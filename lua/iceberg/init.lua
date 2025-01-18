@@ -141,10 +141,10 @@ local function set_hl_groups()
 	hl(0, "SpellLocal", { fg = "NONE", bg = "NONE", sp = "#89b9c2", undercurl = true })
 	hl(0, "SpellRare", { fg = "NONE", bg = "NONE", sp = "#a093c8", undercurl = true })
 	hl(0, "Statement", { fg = "#85a0c7", bg = "NONE" })
-	hl(0, "StatusLine", { fg = "#828597", bg = "#17181c", reverse = true })
-	hl(0, "StatusLineTerm", { fg = "#828597", bg = "#17181c", reverse = true })
-	hl(0, "StatusLineNC", { fg = "#101218", bg = "#3f455f", reverse = true })
-	hl(0, "StatusLineTermNC", { fg = "#101218", bg = "#3f455f", reverse = true })
+	-- hl(0, "StatusLine", { fg = "#828597", bg = "#17181c", reverse = true })
+	-- hl(0, "StatusLineTerm", { fg = "#828597", bg = "#17181c", reverse = true })
+	-- hl(0, "StatusLineNC", { fg = "#101218", bg = "#3f455f", reverse = true })
+	-- hl(0, "StatusLineTermNC", { fg = "#101218", bg = "#3f455f", reverse = true })
 	hl(0, "StorageClass", { fg = "#85a0c7", bg = "NONE" })
 	hl(0, "String", { fg = "#89b9c2", bg = "NONE" })
 	hl(0, "Structure", { fg = "#85a0c7", bg = "NONE" })
@@ -311,6 +311,10 @@ local function set_hl_groups()
 	hl(0, "xmlNamespace", { link = "Statement" })
 	hl(0, "xmlTag", { link = "Statement" })
 	hl(0, "xmlTagName", { link = "Statement" })
+
+	-- DevIcons
+	hl(0, "DevIconDefault", { fg = "#c7c9d1", bg = "NONE" })
+
 end
 
 function M.init()
