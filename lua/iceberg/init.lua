@@ -315,6 +315,9 @@ local function set_hl_groups()
 	-- DevIcons
 	hl(0, "DevIconDefault", { fg = "#c7c9d1", bg = "NONE" })
 
+	-- Snacks 
+	hl(0, "SnacksPickerDirectory", { fg = "#6c7189", bg = "NONE" })
+	hl(0, "SnacksPickerDir", { fg = "#6c7189", bg = "NONE" })
 end
 
 function M.init()
