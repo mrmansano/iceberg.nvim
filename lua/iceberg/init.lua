@@ -312,6 +312,10 @@ local function set_hl_groups()
 	hl(0, "xmlTag", { link = "Statement" })
 	hl(0, "xmlTagName", { link = "Statement" })
 
+	-- hl(0, "SnacksPicker", { bg = "#1f2233" })
+	hl(0, "SnacksPickerBorder", { fg = "#85a0c7" })
+	hl(0, "SnacksPickerBoxBorder", { fg = "#b5bf82" })
+	-- hl(0, "SnacksPickerTitle", { fg = "#b5bf82", bg = "#1f2233", bold = true })
 	-- DevIcons
 	hl(0, "DevIconDefault", { fg = "#c7c9d1", bg = "NONE" })
 
